@@ -40,5 +40,5 @@ so it will return [50,100,150]
 17. the result is that the function will return and array with values [2,4,6] since first the function creates a new const array which is intially empty, then with the for loop, values within the array given by the parameter
     are pushed into the array after they go through callback with is a function that multiplies the number by 2. so for the first iteration it gets array[0] which is 1 then multiplies it by 2 then pushes it
     into the newArray. By the end the function returns the newArray which has values [2,4,6],
-18.
+18.[part2-question18.js](./part2-question18.js)
 19.the output is these numbers in order 1 4 3 2 since with timeout we delayed the print of 2 by 1000 while having the others print with no delay so it first printed based on what was in first then after a 1000 delay printed 2
