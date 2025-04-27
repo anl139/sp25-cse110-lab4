@@ -36,7 +36,7 @@ so it will return [50,100,150]
 - E. false in this case true is assigned the value of 1 in which 1 == 2 is false
 - F. True since boolean(2) will return true in which true === true is true since they are the same without the need of changing format of values
 15. the == operator does a loose comparison in which it will change the values to match should the variables be different === on the other hand doesnt do that and just compares the values as is and sees if they are the same
-16.
+16. [part2-question16.js](./part2-question16.js)
 17. the result is that the function will return and array with values [2,4,6] since first the function creates a new const array which is intially empty, then with the for loop, values within the array given by the parameter
     are pushed into the array after they go through callback with is a function that multiplies the number by 2. so for the first iteration it gets array[0] which is 1 then multiplies it by 2 then pushes it
     into the newArray. By the end the function returns the newArray which has values [2,4,6],
