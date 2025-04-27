@@ -1,6 +1,6 @@
-1.with I being a var it is defined within the entire function in which i increments three times( for the three prices) so it will print 3
+1. with I being a var it is defined within the entire function in which i increments three times( for the three prices) so it will print 3
 2. with discountedPrice also being a var it is defined within the entire function and its last assignment was 300 * 0.5 = 150 so it will print 150
-3.with finalPrice also being a var it is defined within the entire function and its last assigment was Math.round(150 * 100)/100 = 150 so it will print 150
+3 .with finalPrice also being a var it is defined within the entire function and its last assigment was Math.round(150 * 100)/100 = 150 so it will print 150
 4. it will return an array since discounted is an array defined within the function and inside it will be the final price of each iteration so 
 i = 0: 100 * 0.5 = 50 
 i = 1:200 * 0.5 = 100 
